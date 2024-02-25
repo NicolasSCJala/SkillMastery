@@ -11,7 +11,7 @@
         "projectName": "SkillMasteryAPI.Domain",
         "projectPath": "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\src\\Core\\SkillMasteryAPI.Domain\\SkillMasteryAPI.Domain.csproj",
         "packagesPath": "C:\\Users\\nicos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nicos\\Source\\Repos\\SkillMastery\\SkillMasteryAPI\\src\\Core\\SkillMasteryAPI.Domain\\obj\\",
+        "outputPath": "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\src\\Core\\SkillMasteryAPI.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

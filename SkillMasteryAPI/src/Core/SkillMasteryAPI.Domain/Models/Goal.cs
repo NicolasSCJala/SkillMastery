@@ -2,18 +2,11 @@
 {
     public class Goal : BaseModel
     {
-        public required string Name { get; set; }
+        public string Name { get; set; } = string.Empty;
 
-        public required DateOnly Finish_Date { get; set; }
+        public DateOnly Finish_Date { get; set; }
 
-        public required int UserSkillId { get; set; }
-        public required UserSkill UserSkill { get; set; }
-
-   
-
-
-
-
-
+        public int UserSkillId { get; set; }
+        public UserSkill? UserSkill { get; set; }
     }
 }
