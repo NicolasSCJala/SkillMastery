@@ -38,6 +38,7 @@ namespace SkillMasteryAPI.Infrastructure.Repositories
 
         public async Task<Skill> GetSkillByIdAsync(int id)
         {
+
             return await _context.Skill.FindAsync(id);
         }
 
