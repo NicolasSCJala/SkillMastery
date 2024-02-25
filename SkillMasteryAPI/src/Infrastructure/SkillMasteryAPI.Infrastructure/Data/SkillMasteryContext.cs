@@ -3,9 +3,12 @@ using SkillMasteryAPI.Domain.Models;
 
 
 namespace SkillMasteryAPI.Infrastructure.Data;
+public class SkillMasteryContext : DbContext 
 
-public class SkillMasteryContext(DbContextOptions<SkillMasteryContext> options) : DbContext(options)
 {
+    public  SkillMasteryContext(DbContextOptions<SkillMasteryContext> options) : base(options)
+    { 
+    }
     public DbSet<Dificulty> Dificulty { get; set; }
     public DbSet<User> User { get; set; }
     public DbSet<Skill> Skill { get; set; }
@@ -13,28 +16,30 @@ public class SkillMasteryContext(DbContextOptions<SkillMasteryContext> options) 
     public DbSet<UserSkill> UserSkill { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
-    {
+
+{ 
         modelBuilder.Entity<User>()
          .HasMany(u => u.UserSkill)
          .WithOne(cu => cu.User)
          .HasForeignKey(cu => cu.UserId);
 
-        modelBuilder.Entity<Skill>()
+    modelBuilder.Entity<Skill>()
          .HasMany(u => u.UserSkill)
          .WithOne(cu => cu.Skill)
          .HasForeignKey(cu => cu.SkillId);
 
-        modelBuilder.Entity<Dificulty>()
+    modelBuilder.Entity<Dificulty>()
          .HasMany(c => c.Skill)
          .WithOne(u => u.Dificulty)
          .HasForeignKey(u => u.DificultyId);
 
-        modelBuilder.Entity<UserSkill>()
+    modelBuilder.Entity<UserSkill>()
           .HasMany(c => c.Goal)
           .WithOne(u => u.UserSkill)
           .HasForeignKey(u => u.UserSkillId);
-
     }
+    
 }
+
 
 
