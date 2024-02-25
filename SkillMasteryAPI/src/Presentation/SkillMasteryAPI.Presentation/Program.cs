@@ -4,9 +4,7 @@ using SkillMasteryAPI.Infrastructure.Data;
 using SkillMasteryAPI.Application;
 using SkillMasteryAPI.Presentation.Middlewares;
 
-using SkillMasteryAPI.Application;
-using SkillMasteryAPI.Infrastructure;
-using SkillMasteryAPI.Presentation.Middlewares;
+
 using Microsoft.AspNetCore.Mvc;
 using System.Text.Json.Serialization;
 using System.Text.Json;

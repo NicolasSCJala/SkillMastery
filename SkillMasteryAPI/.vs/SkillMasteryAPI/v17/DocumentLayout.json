@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{65DEFF51-D5B7-49C0-B70B-7B5061C01BFA}|src\\Presentation\\SkillMasteryAPI.Presentation\\SkillMasteryAPI.Presentation.csproj|c:\\users\\nicos\\source\\repos\\skillmastery\\skillmasteryapi\\src\\presentation\\skillmasteryapi.presentation\\registrations\\applicactionserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65DEFF51-D5B7-49C0-B70B-7B5061C01BFA}|src\\Presentation\\SkillMasteryAPI.Presentation\\SkillMasteryAPI.Presentation.csproj|solutionrelative:src\\presentation\\skillmasteryapi.presentation\\registrations\\applicactionserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{65DEFF51-D5B7-49C0-B70B-7B5061C01BFA}|src\\Presentation\\SkillMasteryAPI.Presentation\\SkillMasteryAPI.Presentation.csproj|c:\\users\\nicos\\source\\repos\\skillmastery\\skillmasteryapi\\src\\presentation\\skillmasteryapi.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65DEFF51-D5B7-49C0-B70B-7B5061C01BFA}|src\\Presentation\\SkillMasteryAPI.Presentation\\SkillMasteryAPI.Presentation.csproj|solutionrelative:src\\presentation\\skillmasteryapi.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,15 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ApplicactionServiceRegistration.cs",
-              "DocumentMoniker": "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\src\\Presentation\\SkillMasteryAPI.Presentation\\Registrations\\ApplicactionServiceRegistration.cs",
-              "RelativeDocumentMoniker": "src\\Presentation\\SkillMasteryAPI.Presentation\\Registrations\\ApplicactionServiceRegistration.cs",
-              "ToolTip": "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\src\\Presentation\\SkillMasteryAPI.Presentation\\Registrations\\ApplicactionServiceRegistration.cs",
-              "RelativeToolTip": "src\\Presentation\\SkillMasteryAPI.Presentation\\Registrations\\ApplicactionServiceRegistration.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAA9AAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\src\\Presentation\\SkillMasteryAPI.Presentation\\Program.cs",
+              "RelativeDocumentMoniker": "src\\Presentation\\SkillMasteryAPI.Presentation\\Program.cs",
+              "ToolTip": "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\src\\Presentation\\SkillMasteryAPI.Presentation\\Program.cs",
+              "RelativeToolTip": "src\\Presentation\\SkillMasteryAPI.Presentation\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T05:11:56.479Z",
-              "IsPinned": true,
+              "WhenOpened": "2024-02-25T20:49:00.699Z",
               "EditorCaption": ""
             }
           ]
