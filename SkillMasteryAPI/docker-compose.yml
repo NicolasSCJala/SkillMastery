@@ -1,23 +1,25 @@
-version: '3.9'
+version: '3.8'
 
 services:
-  postgres-database:
-    image: postgres:latest
-    container_name: postgres-container
+  db:
+    image: postgres
+    container_name: skill-mastery-db
+    restart: always
     environment:
-      POSTGRES_DB: skillmastery
-      POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
+      POSTGRES_USER: postgres
+      POSTGRES_DB: postgres
     ports:
-      - "5432:5432"
+      - 5432:5432
     volumes:
-      - postgres_data:/var/lib/postgresql/data
-    networks:
-      - klockan-network
-
-volumes:
-  postgres_data:
-
-networks:
-  klockan-network:
-    driver: bridge
+      - ./data:/var/lib/postgresql/data
+  api:
+    image: skill-mastery-api:latest
+    container_name: skill-mastery-api
+    restart: always
+    environment:
+      ConnectionStrings__QuizAPIConnectionString: "Host=db;Port=5432;Database=skillmastery;Username=postgres;Password=postgres"
+    ports:
+      - 5000:80
+    depends_on:
+      - db
