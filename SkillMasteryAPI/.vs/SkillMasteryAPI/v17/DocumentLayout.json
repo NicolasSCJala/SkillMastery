@@ -3,8 +3,68 @@
   "WorkspaceRootPath": "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{65DEFF51-D5B7-49C0-B70B-7B5061C01BFA}|src\\Presentation\\SkillMasteryAPI.Presentation\\SkillMasteryAPI.Presentation.csproj|c:\\users\\nicos\\source\\repos\\skillmastery\\skillmasteryapi\\src\\presentation\\skillmasteryapi.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65DEFF51-D5B7-49C0-B70B-7B5061C01BFA}|src\\Presentation\\SkillMasteryAPI.Presentation\\SkillMasteryAPI.Presentation.csproj|solutionrelative:src\\presentation\\skillmasteryapi.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2AF8A1EA-C16C-47AD-B038-051740E0F091}|src\\Core\\SkillMasteryAPI.Domain\\SkillMasteryAPI.Domain.csproj|c:\\users\\nicos\\source\\repos\\skillmastery\\skillmasteryapi\\src\\core\\skillmasteryapi.domain\\models\\userskill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AF8A1EA-C16C-47AD-B038-051740E0F091}|src\\Core\\SkillMasteryAPI.Domain\\SkillMasteryAPI.Domain.csproj|solutionrelative:src\\core\\skillmasteryapi.domain\\models\\userskill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B2D099E-1BC2-4A24-BF99-4AEEF3EF07B3}|src\\Core\\SkillMasteryAPI.Application\\SkillMasteryAPI.Application.csproj|c:\\users\\nicos\\source\\repos\\skillmastery\\skillmasteryapi\\src\\core\\skillmasteryapi.application\\dtos\\userskill\\userskilldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B2D099E-1BC2-4A24-BF99-4AEEF3EF07B3}|src\\Core\\SkillMasteryAPI.Application\\SkillMasteryAPI.Application.csproj|solutionrelative:src\\core\\skillmasteryapi.application\\dtos\\userskill\\userskilldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B2D099E-1BC2-4A24-BF99-4AEEF3EF07B3}|src\\Core\\SkillMasteryAPI.Application\\SkillMasteryAPI.Application.csproj|c:\\users\\nicos\\source\\repos\\skillmastery\\skillmasteryapi\\src\\core\\skillmasteryapi.application\\dtos\\userskill\\createuserskilldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B2D099E-1BC2-4A24-BF99-4AEEF3EF07B3}|src\\Core\\SkillMasteryAPI.Application\\SkillMasteryAPI.Application.csproj|solutionrelative:src\\core\\skillmasteryapi.application\\dtos\\userskill\\createuserskilldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B2D099E-1BC2-4A24-BF99-4AEEF3EF07B3}|src\\Core\\SkillMasteryAPI.Application\\SkillMasteryAPI.Application.csproj|c:\\users\\nicos\\source\\repos\\skillmastery\\skillmasteryapi\\src\\core\\skillmasteryapi.application\\dtos\\user\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B2D099E-1BC2-4A24-BF99-4AEEF3EF07B3}|src\\Core\\SkillMasteryAPI.Application\\SkillMasteryAPI.Application.csproj|solutionrelative:src\\core\\skillmasteryapi.application\\dtos\\user\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B2D099E-1BC2-4A24-BF99-4AEEF3EF07B3}|src\\Core\\SkillMasteryAPI.Application\\SkillMasteryAPI.Application.csproj|c:\\users\\nicos\\source\\repos\\skillmastery\\skillmasteryapi\\src\\core\\skillmasteryapi.application\\dtos\\user\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B2D099E-1BC2-4A24-BF99-4AEEF3EF07B3}|src\\Core\\SkillMasteryAPI.Application\\SkillMasteryAPI.Application.csproj|solutionrelative:src\\core\\skillmasteryapi.application\\dtos\\user\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B2D099E-1BC2-4A24-BF99-4AEEF3EF07B3}|src\\Core\\SkillMasteryAPI.Application\\SkillMasteryAPI.Application.csproj|c:\\users\\nicos\\source\\repos\\skillmastery\\skillmasteryapi\\src\\core\\skillmasteryapi.application\\dtos\\skill\\skilldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B2D099E-1BC2-4A24-BF99-4AEEF3EF07B3}|src\\Core\\SkillMasteryAPI.Application\\SkillMasteryAPI.Application.csproj|solutionrelative:src\\core\\skillmasteryapi.application\\dtos\\skill\\skilldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B2D099E-1BC2-4A24-BF99-4AEEF3EF07B3}|src\\Core\\SkillMasteryAPI.Application\\SkillMasteryAPI.Application.csproj|c:\\users\\nicos\\source\\repos\\skillmastery\\skillmasteryapi\\src\\core\\skillmasteryapi.application\\dtos\\skill\\createskilldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B2D099E-1BC2-4A24-BF99-4AEEF3EF07B3}|src\\Core\\SkillMasteryAPI.Application\\SkillMasteryAPI.Application.csproj|solutionrelative:src\\core\\skillmasteryapi.application\\dtos\\skill\\createskilldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B2D099E-1BC2-4A24-BF99-4AEEF3EF07B3}|src\\Core\\SkillMasteryAPI.Application\\SkillMasteryAPI.Application.csproj|c:\\users\\nicos\\source\\repos\\skillmastery\\skillmasteryapi\\src\\core\\skillmasteryapi.application\\dtos\\goal\\goaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B2D099E-1BC2-4A24-BF99-4AEEF3EF07B3}|src\\Core\\SkillMasteryAPI.Application\\SkillMasteryAPI.Application.csproj|solutionrelative:src\\core\\skillmasteryapi.application\\dtos\\goal\\goaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B2D099E-1BC2-4A24-BF99-4AEEF3EF07B3}|src\\Core\\SkillMasteryAPI.Application\\SkillMasteryAPI.Application.csproj|c:\\users\\nicos\\source\\repos\\skillmastery\\skillmasteryapi\\src\\core\\skillmasteryapi.application\\dtos\\goal\\creategoaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B2D099E-1BC2-4A24-BF99-4AEEF3EF07B3}|src\\Core\\SkillMasteryAPI.Application\\SkillMasteryAPI.Application.csproj|solutionrelative:src\\core\\skillmasteryapi.application\\dtos\\goal\\creategoaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B2D099E-1BC2-4A24-BF99-4AEEF3EF07B3}|src\\Core\\SkillMasteryAPI.Application\\SkillMasteryAPI.Application.csproj|c:\\users\\nicos\\source\\repos\\skillmastery\\skillmasteryapi\\src\\core\\skillmasteryapi.application\\dtos\\dificulty\\dificultydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B2D099E-1BC2-4A24-BF99-4AEEF3EF07B3}|src\\Core\\SkillMasteryAPI.Application\\SkillMasteryAPI.Application.csproj|solutionrelative:src\\core\\skillmasteryapi.application\\dtos\\dificulty\\dificultydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B2D099E-1BC2-4A24-BF99-4AEEF3EF07B3}|src\\Core\\SkillMasteryAPI.Application\\SkillMasteryAPI.Application.csproj|c:\\users\\nicos\\source\\repos\\skillmastery\\skillmasteryapi\\src\\core\\skillmasteryapi.application\\dtos\\dificulty\\createdificultydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B2D099E-1BC2-4A24-BF99-4AEEF3EF07B3}|src\\Core\\SkillMasteryAPI.Application\\SkillMasteryAPI.Application.csproj|solutionrelative:src\\core\\skillmasteryapi.application\\dtos\\dificulty\\createdificultydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AF8A1EA-C16C-47AD-B038-051740E0F091}|src\\Core\\SkillMasteryAPI.Domain\\SkillMasteryAPI.Domain.csproj|c:\\users\\nicos\\source\\repos\\skillmastery\\skillmasteryapi\\src\\core\\skillmasteryapi.domain\\models\\goal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AF8A1EA-C16C-47AD-B038-051740E0F091}|src\\Core\\SkillMasteryAPI.Domain\\SkillMasteryAPI.Domain.csproj|solutionrelative:src\\core\\skillmasteryapi.domain\\models\\goal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AF8A1EA-C16C-47AD-B038-051740E0F091}|src\\Core\\SkillMasteryAPI.Domain\\SkillMasteryAPI.Domain.csproj|c:\\users\\nicos\\source\\repos\\skillmastery\\skillmasteryapi\\src\\core\\skillmasteryapi.domain\\models\\skill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AF8A1EA-C16C-47AD-B038-051740E0F091}|src\\Core\\SkillMasteryAPI.Domain\\SkillMasteryAPI.Domain.csproj|solutionrelative:src\\core\\skillmasteryapi.domain\\models\\skill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AF8A1EA-C16C-47AD-B038-051740E0F091}|src\\Core\\SkillMasteryAPI.Domain\\SkillMasteryAPI.Domain.csproj|c:\\users\\nicos\\source\\repos\\skillmastery\\skillmasteryapi\\src\\core\\skillmasteryapi.domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AF8A1EA-C16C-47AD-B038-051740E0F091}|src\\Core\\SkillMasteryAPI.Domain\\SkillMasteryAPI.Domain.csproj|solutionrelative:src\\core\\skillmasteryapi.domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{265A6549-7879-4156-A2E5-0C414A12AEE1}|src\\Infrastructure\\SkillMasteryAPI.Infrastructure\\SkillMasteryAPI.Infrastructure.csproj|c:\\users\\nicos\\source\\repos\\skillmastery\\skillmasteryapi\\src\\infrastructure\\skillmasteryapi.infrastructure\\data\\skillmasterycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{265A6549-7879-4156-A2E5-0C414A12AEE1}|src\\Infrastructure\\SkillMasteryAPI.Infrastructure\\SkillMasteryAPI.Infrastructure.csproj|solutionrelative:src\\infrastructure\\skillmasteryapi.infrastructure\\data\\skillmasterycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{265A6549-7879-4156-A2E5-0C414A12AEE1}|src\\Infrastructure\\SkillMasteryAPI.Infrastructure\\SkillMasteryAPI.Infrastructure.csproj|c:\\users\\nicos\\source\\repos\\skillmastery\\skillmasteryapi\\src\\infrastructure\\skillmasteryapi.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{265A6549-7879-4156-A2E5-0C414A12AEE1}|src\\Infrastructure\\SkillMasteryAPI.Infrastructure\\SkillMasteryAPI.Infrastructure.csproj|solutionrelative:src\\infrastructure\\skillmasteryapi.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +74,214 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\src\\Presentation\\SkillMasteryAPI.Presentation\\Program.cs",
-              "RelativeDocumentMoniker": "src\\Presentation\\SkillMasteryAPI.Presentation\\Program.cs",
-              "ToolTip": "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\src\\Presentation\\SkillMasteryAPI.Presentation\\Program.cs",
-              "RelativeToolTip": "src\\Presentation\\SkillMasteryAPI.Presentation\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "UserSkillDTO.cs",
+              "DocumentMoniker": "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\src\\Core\\SkillMasteryAPI.Application\\DTOs\\UserSkill\\UserSkillDTO.cs",
+              "RelativeDocumentMoniker": "src\\Core\\SkillMasteryAPI.Application\\DTOs\\UserSkill\\UserSkillDTO.cs",
+              "ToolTip": "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\src\\Core\\SkillMasteryAPI.Application\\DTOs\\UserSkill\\UserSkillDTO.cs",
+              "RelativeToolTip": "src\\Core\\SkillMasteryAPI.Application\\DTOs\\UserSkill\\UserSkillDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T00:24:01.393Z",
+              "WhenOpened": "2024-02-25T04:32:04.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreateUserSkillDTO.cs",
+              "DocumentMoniker": "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\src\\Core\\SkillMasteryAPI.Application\\DTOs\\UserSkill\\CreateUserSkillDTO.cs",
+              "RelativeDocumentMoniker": "src\\Core\\SkillMasteryAPI.Application\\DTOs\\UserSkill\\CreateUserSkillDTO.cs",
+              "ToolTip": "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\src\\Core\\SkillMasteryAPI.Application\\DTOs\\UserSkill\\CreateUserSkillDTO.cs",
+              "RelativeToolTip": "src\\Core\\SkillMasteryAPI.Application\\DTOs\\UserSkill\\CreateUserSkillDTO.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-25T04:32:04.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\src\\Core\\SkillMasteryAPI.Application\\DTOs\\User\\UserDTO.cs",
+              "RelativeDocumentMoniker": "src\\Core\\SkillMasteryAPI.Application\\DTOs\\User\\UserDTO.cs",
+              "ToolTip": "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\src\\Core\\SkillMasteryAPI.Application\\DTOs\\User\\UserDTO.cs",
+              "RelativeToolTip": "src\\Core\\SkillMasteryAPI.Application\\DTOs\\User\\UserDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-25T04:31:58.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreateUserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\src\\Core\\SkillMasteryAPI.Application\\DTOs\\User\\CreateUserDTO.cs",
+              "RelativeDocumentMoniker": "src\\Core\\SkillMasteryAPI.Application\\DTOs\\User\\CreateUserDTO.cs",
+              "ToolTip": "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\src\\Core\\SkillMasteryAPI.Application\\DTOs\\User\\CreateUserDTO.cs",
+              "RelativeToolTip": "src\\Core\\SkillMasteryAPI.Application\\DTOs\\User\\CreateUserDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-25T04:31:44.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SkillDTO.cs",
+              "DocumentMoniker": "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\src\\Core\\SkillMasteryAPI.Application\\DTOs\\Skill\\SkillDTO.cs",
+              "RelativeDocumentMoniker": "src\\Core\\SkillMasteryAPI.Application\\DTOs\\Skill\\SkillDTO.cs",
+              "ToolTip": "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\src\\Core\\SkillMasteryAPI.Application\\DTOs\\Skill\\SkillDTO.cs",
+              "RelativeToolTip": "src\\Core\\SkillMasteryAPI.Application\\DTOs\\Skill\\SkillDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-25T04:31:38.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CreateSkillDTO.cs",
+              "DocumentMoniker": "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\src\\Core\\SkillMasteryAPI.Application\\DTOs\\Skill\\CreateSkillDTO.cs",
+              "RelativeDocumentMoniker": "src\\Core\\SkillMasteryAPI.Application\\DTOs\\Skill\\CreateSkillDTO.cs",
+              "ToolTip": "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\src\\Core\\SkillMasteryAPI.Application\\DTOs\\Skill\\CreateSkillDTO.cs",
+              "RelativeToolTip": "src\\Core\\SkillMasteryAPI.Application\\DTOs\\Skill\\CreateSkillDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-25T04:31:23.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GoalDTO.cs",
+              "DocumentMoniker": "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\src\\Core\\SkillMasteryAPI.Application\\DTOs\\Goal\\GoalDTO.cs",
+              "RelativeDocumentMoniker": "src\\Core\\SkillMasteryAPI.Application\\DTOs\\Goal\\GoalDTO.cs",
+              "ToolTip": "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\src\\Core\\SkillMasteryAPI.Application\\DTOs\\Goal\\GoalDTO.cs",
+              "RelativeToolTip": "src\\Core\\SkillMasteryAPI.Application\\DTOs\\Goal\\GoalDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-25T04:31:12.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CreateGoalDTO.cs",
+              "DocumentMoniker": "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\src\\Core\\SkillMasteryAPI.Application\\DTOs\\Goal\\CreateGoalDTO.cs",
+              "RelativeDocumentMoniker": "src\\Core\\SkillMasteryAPI.Application\\DTOs\\Goal\\CreateGoalDTO.cs",
+              "ToolTip": "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\src\\Core\\SkillMasteryAPI.Application\\DTOs\\Goal\\CreateGoalDTO.cs",
+              "RelativeToolTip": "src\\Core\\SkillMasteryAPI.Application\\DTOs\\Goal\\CreateGoalDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-25T04:30:49.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DificultyDTO.cs",
+              "DocumentMoniker": "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\src\\Core\\SkillMasteryAPI.Application\\DTOs\\Dificulty\\DificultyDTO.cs",
+              "RelativeDocumentMoniker": "src\\Core\\SkillMasteryAPI.Application\\DTOs\\Dificulty\\DificultyDTO.cs",
+              "ToolTip": "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\src\\Core\\SkillMasteryAPI.Application\\DTOs\\Dificulty\\DificultyDTO.cs",
+              "RelativeToolTip": "src\\Core\\SkillMasteryAPI.Application\\DTOs\\Dificulty\\DificultyDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-25T04:30:43.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CreateDificultyDTO.cs",
+              "DocumentMoniker": "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\src\\Core\\SkillMasteryAPI.Application\\DTOs\\Dificulty\\CreateDificultyDTO.cs",
+              "RelativeDocumentMoniker": "src\\Core\\SkillMasteryAPI.Application\\DTOs\\Dificulty\\CreateDificultyDTO.cs",
+              "ToolTip": "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\src\\Core\\SkillMasteryAPI.Application\\DTOs\\Dificulty\\CreateDificultyDTO.cs",
+              "RelativeToolTip": "src\\Core\\SkillMasteryAPI.Application\\DTOs\\Dificulty\\CreateDificultyDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-25T04:30:37.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Goal.cs",
+              "DocumentMoniker": "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\src\\Core\\SkillMasteryAPI.Domain\\Models\\Goal.cs",
+              "RelativeDocumentMoniker": "src\\Core\\SkillMasteryAPI.Domain\\Models\\Goal.cs",
+              "ToolTip": "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\src\\Core\\SkillMasteryAPI.Domain\\Models\\Goal.cs",
+              "RelativeToolTip": "src\\Core\\SkillMasteryAPI.Domain\\Models\\Goal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-25T04:28:47.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserSkill.cs",
+              "DocumentMoniker": "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\src\\Core\\SkillMasteryAPI.Domain\\Models\\UserSkill.cs",
+              "RelativeDocumentMoniker": "src\\Core\\SkillMasteryAPI.Domain\\Models\\UserSkill.cs",
+              "ToolTip": "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\src\\Core\\SkillMasteryAPI.Domain\\Models\\UserSkill.cs",
+              "RelativeToolTip": "src\\Core\\SkillMasteryAPI.Domain\\Models\\UserSkill.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-25T04:28:38.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\src\\Core\\SkillMasteryAPI.Domain\\Models\\User.cs",
+              "RelativeDocumentMoniker": "src\\Core\\SkillMasteryAPI.Domain\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\src\\Core\\SkillMasteryAPI.Domain\\Models\\User.cs",
+              "RelativeToolTip": "src\\Core\\SkillMasteryAPI.Domain\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-25T04:28:06.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Skill.cs",
+              "DocumentMoniker": "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\src\\Core\\SkillMasteryAPI.Domain\\Models\\Skill.cs",
+              "RelativeDocumentMoniker": "src\\Core\\SkillMasteryAPI.Domain\\Models\\Skill.cs",
+              "ToolTip": "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\src\\Core\\SkillMasteryAPI.Domain\\Models\\Skill.cs",
+              "RelativeToolTip": "src\\Core\\SkillMasteryAPI.Domain\\Models\\Skill.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-25T04:28:03.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SkillMasteryContext.cs",
+              "DocumentMoniker": "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\src\\Infrastructure\\SkillMasteryAPI.Infrastructure\\Data\\SkillMasteryContext.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\SkillMasteryAPI.Infrastructure\\Data\\SkillMasteryContext.cs",
+              "ToolTip": "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\src\\Infrastructure\\SkillMasteryAPI.Infrastructure\\Data\\SkillMasteryContext.cs",
+              "RelativeToolTip": "src\\Infrastructure\\SkillMasteryAPI.Infrastructure\\Data\\SkillMasteryContext.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAuwCYAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-25T04:24:38.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\src\\Infrastructure\\SkillMasteryAPI.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\SkillMasteryAPI.Infrastructure\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\src\\Infrastructure\\SkillMasteryAPI.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "src\\Infrastructure\\SkillMasteryAPI.Infrastructure\\Repositories\\UserRepository.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAA0wAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-25T04:23:46.122Z",
               "EditorCaption": ""
             }
           ]

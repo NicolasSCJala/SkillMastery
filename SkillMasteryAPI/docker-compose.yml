@@ -1,0 +1,23 @@
+version: '3.9'
+
+services:
+  postgres-database:
+    image: postgres:latest
+    container_name: postgres-container
+    environment:
+      POSTGRES_DB: skillmastery
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - klockan-network
+
+volumes:
+  postgres_data:
+
+networks:
+  klockan-network:
+    driver: bridge
