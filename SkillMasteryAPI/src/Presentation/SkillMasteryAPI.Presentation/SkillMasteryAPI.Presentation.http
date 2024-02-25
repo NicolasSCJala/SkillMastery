@@ -1,0 +1,6 @@
+@SkillMasteryAPI.Presentation_HostAddress = http://localhost:5167
+
+GET {{SkillMasteryAPI.Presentation_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

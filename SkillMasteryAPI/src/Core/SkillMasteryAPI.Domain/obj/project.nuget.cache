@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+KMhbbQMu1hl6P3sPVumx/C7miuPz7annfGxHKD0pXb7bo45ysDGsHT4qby244rOzusywvyEKwAHD8Xsr8olbg==",
+  "dgSpecHash": "pI36r+2hjebcIxFMPVkQVM3h4Cn8khk3NVv/7rrmczNItTDaXPYo7de9lBljGTVjxE2VM/g+QEm30Rta8JlEUQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\nicos\\Source\\Repos\\SkillMastery\\SkillMasteryAPI\\src\\Core\\SkillMasteryAPI.Domain\\SkillMasteryAPI.Domain.csproj",
+  "projectFilePath": "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\src\\Core\\SkillMasteryAPI.Domain\\SkillMasteryAPI.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

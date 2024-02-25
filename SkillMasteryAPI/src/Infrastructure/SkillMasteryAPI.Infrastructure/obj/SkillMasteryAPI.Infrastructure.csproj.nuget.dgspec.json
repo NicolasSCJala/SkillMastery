@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nicos\\Source\\Repos\\SkillMastery\\SkillMasteryAPI\\src\\Infrastructure\\SkillMasteryAPI.Infrastructure\\SkillMasteryAPI.Infrastructure.csproj": {}
+    "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\src\\Infrastructure\\SkillMasteryAPI.Infrastructure\\SkillMasteryAPI.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nicos\\Source\\Repos\\SkillMastery\\SkillMasteryAPI\\src\\Infrastructure\\SkillMasteryAPI.Infrastructure\\SkillMasteryAPI.Infrastructure.csproj": {
+    "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\src\\Infrastructure\\SkillMasteryAPI.Infrastructure\\SkillMasteryAPI.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nicos\\Source\\Repos\\SkillMastery\\SkillMasteryAPI\\src\\Infrastructure\\SkillMasteryAPI.Infrastructure\\SkillMasteryAPI.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\src\\Infrastructure\\SkillMasteryAPI.Infrastructure\\SkillMasteryAPI.Infrastructure.csproj",
         "projectName": "SkillMasteryAPI.Infrastructure",
-        "projectPath": "C:\\Users\\nicos\\Source\\Repos\\SkillMastery\\SkillMasteryAPI\\src\\Infrastructure\\SkillMasteryAPI.Infrastructure\\SkillMasteryAPI.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\src\\Infrastructure\\SkillMasteryAPI.Infrastructure\\SkillMasteryAPI.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\nicos\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\nicos\\Source\\Repos\\SkillMastery\\SkillMasteryAPI\\src\\Infrastructure\\SkillMasteryAPI.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",

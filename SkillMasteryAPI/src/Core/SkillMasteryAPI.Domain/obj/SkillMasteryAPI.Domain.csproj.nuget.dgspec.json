@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nicos\\Source\\Repos\\SkillMastery\\SkillMasteryAPI\\src\\Core\\SkillMasteryAPI.Domain\\SkillMasteryAPI.Domain.csproj": {}
+    "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\src\\Core\\SkillMasteryAPI.Domain\\SkillMasteryAPI.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nicos\\Source\\Repos\\SkillMastery\\SkillMasteryAPI\\src\\Core\\SkillMasteryAPI.Domain\\SkillMasteryAPI.Domain.csproj": {
+    "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\src\\Core\\SkillMasteryAPI.Domain\\SkillMasteryAPI.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nicos\\Source\\Repos\\SkillMastery\\SkillMasteryAPI\\src\\Core\\SkillMasteryAPI.Domain\\SkillMasteryAPI.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\src\\Core\\SkillMasteryAPI.Domain\\SkillMasteryAPI.Domain.csproj",
         "projectName": "SkillMasteryAPI.Domain",
-        "projectPath": "C:\\Users\\nicos\\Source\\Repos\\SkillMastery\\SkillMasteryAPI\\src\\Core\\SkillMasteryAPI.Domain\\SkillMasteryAPI.Domain.csproj",
+        "projectPath": "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\src\\Core\\SkillMasteryAPI.Domain\\SkillMasteryAPI.Domain.csproj",
         "packagesPath": "C:\\Users\\nicos\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\nicos\\Source\\Repos\\SkillMastery\\SkillMasteryAPI\\src\\Core\\SkillMasteryAPI.Domain\\obj\\",
         "projectStyle": "PackageReference",

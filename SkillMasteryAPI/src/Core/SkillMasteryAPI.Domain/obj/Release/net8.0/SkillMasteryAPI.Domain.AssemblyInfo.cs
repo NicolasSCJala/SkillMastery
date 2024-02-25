@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SkillMasteryAPI.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+45b67f6192c26657831dafd3a5fcd099d402664a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f375a56e246b91f9e74af6d9fd0857bc7a1dfb1e")]
 [assembly: System.Reflection.AssemblyProductAttribute("SkillMasteryAPI.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SkillMasteryAPI.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
