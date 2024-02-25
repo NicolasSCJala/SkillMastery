@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "R8fsQh3gQ2sNZIwUS86P7jg4h644ybdueutls++B1JB3Usr1uFUI90u2gWchGE5YMk2+lsyliHvdRoN1+cO3bA==",
+  "dgSpecHash": "ww8nPikK9fV1VUxafF1qeEhLKFuD/mHYHweAziA/fzcwUf42dJRcjd4h9qm8BGgbFnosNB+lKcQymjvCTEL01w==",
   "success": true,
   "projectFilePath": "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\src\\Core\\SkillMasteryAPI.Application\\SkillMasteryAPI.Application.csproj",
   "expectedPackageFiles": [
@@ -33,6 +33,8 @@
     "C:\\Users\\nicos\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
     "C:\\Users\\nicos\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
     "C:\\Users\\nicos\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\nicos\\.nuget\\packages\\npgsql\\8.0.2\\npgsql.8.0.2.nupkg.sha512",
+    "C:\\Users\\nicos\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\8.0.2\\npgsql.entityframeworkcore.postgresql.8.0.2.nupkg.sha512",
     "C:\\Users\\nicos\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",
     "C:\\Users\\nicos\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\nicos\\.nuget\\packages\\system.composition\\6.0.0\\system.composition.6.0.0.nupkg.sha512",

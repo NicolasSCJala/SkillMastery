@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "X/GNUAzCIRZBzomw/FJIvQOF4DKt/YRWX6ozXr4eqYgW6QloB4N0gM9M3d2UTKEQ6SIc6PU8ZD0H306f+GQabQ==",
+  "dgSpecHash": "Q643vDwIrDVzt1csvRGTO1GvpCzxkuNffXVFQsqWkBzL/FoXn4o2in5jcaXh1jatbkgWLejcUhj6CKWnD+bClQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\src\\Presentation\\SkillMasteryAPI.Presentation\\SkillMasteryAPI.Presentation.csproj",
   "expectedPackageFiles": [
@@ -35,6 +35,8 @@
     "C:\\Users\\nicos\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
     "C:\\Users\\nicos\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\nicos\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\nicos\\.nuget\\packages\\npgsql\\8.0.2\\npgsql.8.0.2.nupkg.sha512",
+    "C:\\Users\\nicos\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\8.0.2\\npgsql.entityframeworkcore.postgresql.8.0.2.nupkg.sha512",
     "C:\\Users\\nicos\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "C:\\Users\\nicos\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "C:\\Users\\nicos\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",

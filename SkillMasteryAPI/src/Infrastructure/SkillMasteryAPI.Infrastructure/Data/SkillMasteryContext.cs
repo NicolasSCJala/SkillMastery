@@ -4,11 +4,8 @@ using SkillMasteryAPI.Domain.Models;
 
 namespace SkillMasteryAPI.Infrastructure.Data;
 
-public class SkillMasteryContext : DbContext
+public class SkillMasteryContext(DbContextOptions<SkillMasteryContext> options) : DbContext(options)
 {
-    public SkillMasteryContext(DbContextOptions<SkillMasteryContext> options) : base(options)
-    {
-    }
     public DbSet<Dificulty> Dificulty { get; set; }
     public DbSet<User> User { get; set; }
     public DbSet<Skill> Skill { get; set; }
