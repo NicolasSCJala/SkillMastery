@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34616.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5212A200-5C4C-42CE-AAEF-A8F5F9314B2A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{6BAE0E15-A460-43F5-9FD7-FCB637379910}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{EF1E1118-797A-40C5-AA81-E20C1B6B52F1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{26EA0847-C5DE-4C8B-8AF6-62531CDE2925}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{CC02B6B3-4C3A-41AE-8611-689E7014B164}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillMasteryAPI.Infrastructure", "src\Infrastructure\SkillMasteryAPI.Infrastructure\SkillMasteryAPI.Infrastructure.csproj", "{265A6549-7879-4156-A2E5-0C414A12AEE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillMasteryAPI.Domain", "src\Core\SkillMasteryAPI.Domain\SkillMasteryAPI.Domain.csproj", "{2AF8A1EA-C16C-47AD-B038-051740E0F091}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillMasteryAPI.Application", "src\Core\SkillMasteryAPI.Application\SkillMasteryAPI.Application.csproj", "{1B2D099E-1BC2-4A24-BF99-4AEEF3EF07B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillMasteryAPI.Presentation", "src\Presentation\SkillMasteryAPI.Presentation\SkillMasteryAPI.Presentation.csproj", "{862DB40C-0956-430F-A4B9-BC9AE358F247}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{265A6549-7879-4156-A2E5-0C414A12AEE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{265A6549-7879-4156-A2E5-0C414A12AEE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{265A6549-7879-4156-A2E5-0C414A12AEE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{265A6549-7879-4156-A2E5-0C414A12AEE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AF8A1EA-C16C-47AD-B038-051740E0F091}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AF8A1EA-C16C-47AD-B038-051740E0F091}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AF8A1EA-C16C-47AD-B038-051740E0F091}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AF8A1EA-C16C-47AD-B038-051740E0F091}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B2D099E-1BC2-4A24-BF99-4AEEF3EF07B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B2D099E-1BC2-4A24-BF99-4AEEF3EF07B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B2D099E-1BC2-4A24-BF99-4AEEF3EF07B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B2D099E-1BC2-4A24-BF99-4AEEF3EF07B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{862DB40C-0956-430F-A4B9-BC9AE358F247}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{862DB40C-0956-430F-A4B9-BC9AE358F247}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{862DB40C-0956-430F-A4B9-BC9AE358F247}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{862DB40C-0956-430F-A4B9-BC9AE358F247}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EF1E1118-797A-40C5-AA81-E20C1B6B52F1} = {5212A200-5C4C-42CE-AAEF-A8F5F9314B2A}
+		{26EA0847-C5DE-4C8B-8AF6-62531CDE2925} = {5212A200-5C4C-42CE-AAEF-A8F5F9314B2A}
+		{CC02B6B3-4C3A-41AE-8611-689E7014B164} = {5212A200-5C4C-42CE-AAEF-A8F5F9314B2A}
+		{265A6549-7879-4156-A2E5-0C414A12AEE1} = {EF1E1118-797A-40C5-AA81-E20C1B6B52F1}
+		{2AF8A1EA-C16C-47AD-B038-051740E0F091} = {CC02B6B3-4C3A-41AE-8611-689E7014B164}
+		{1B2D099E-1BC2-4A24-BF99-4AEEF3EF07B3} = {CC02B6B3-4C3A-41AE-8611-689E7014B164}
+		{862DB40C-0956-430F-A4B9-BC9AE358F247} = {26EA0847-C5DE-4C8B-8AF6-62531CDE2925}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {10F324A9-2499-446B-9DAE-2610BA08882B}
+	EndGlobalSection
+EndGlobal
