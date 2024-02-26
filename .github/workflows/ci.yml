@@ -13,12 +13,12 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v2
-    - name: check ls
-      run: ls
-  ##  - name: Restore dependencies
-  ##    run: dotnet restore
-  ##  - name: Build
-  ##    run: dotnet build --no-restore
+    - name: Go to sln file
+      run: cd SkillMasteryAPI
+    - name: Restore dependencies
+      run: dotnet restore
+    - name: Build
+      run: dotnet build --no-restore
  ## test:
   ##  name: Test
  ##   runs-on: ubuntu-latest
