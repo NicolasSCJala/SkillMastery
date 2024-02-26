@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34616.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5212A200-5C4C-42CE-AAEF-A8F5F9314B2A}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{6BAE0E15-A460-43F5-9FD7-FCB637379910}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{EF1E1118-797A-40C5-AA81-E20C1B6B52F1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{CC02B6B3-4C3A-41AE-8611-689E7014B164}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkillMasteryAPI.Infrastructure", "src\Infrastructure\SkillMasteryAPI.Infrastructure\SkillMasteryAPI.Infrastructure.csproj", "{265A6549-7879-4156-A2E5-0C414A12AEE1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2AF8A1EA-C16C-47AD-B038-051740E0F091} = {2AF8A1EA-C16C-47AD-B038-051740E0F091}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkillMasteryAPI.Domain", "src\Core\SkillMasteryAPI.Domain\SkillMasteryAPI.Domain.csproj", "{2AF8A1EA-C16C-47AD-B038-051740E0F091}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkillMasteryAPI.Application", "src\Core\SkillMasteryAPI.Application\SkillMasteryAPI.Application.csproj", "{1B2D099E-1BC2-4A24-BF99-4AEEF3EF07B3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{265A6549-7879-4156-A2E5-0C414A12AEE1} = {265A6549-7879-4156-A2E5-0C414A12AEE1}
+		{2AF8A1EA-C16C-47AD-B038-051740E0F091} = {2AF8A1EA-C16C-47AD-B038-051740E0F091}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{F4E2C5B2-D909-48EC-9835-EB9FA52964FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillMasteryAPI.Presentation", "src\Presentation\SkillMasteryAPI.Presentation\SkillMasteryAPI.Presentation.csproj", "{65DEFF51-D5B7-49C0-B70B-7B5061C01BFA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1B2D099E-1BC2-4A24-BF99-4AEEF3EF07B3} = {1B2D099E-1BC2-4A24-BF99-4AEEF3EF07B3}
+		{265A6549-7879-4156-A2E5-0C414A12AEE1} = {265A6549-7879-4156-A2E5-0C414A12AEE1}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{265A6549-7879-4156-A2E5-0C414A12AEE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{265A6549-7879-4156-A2E5-0C414A12AEE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{265A6549-7879-4156-A2E5-0C414A12AEE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{265A6549-7879-4156-A2E5-0C414A12AEE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AF8A1EA-C16C-47AD-B038-051740E0F091}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AF8A1EA-C16C-47AD-B038-051740E0F091}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AF8A1EA-C16C-47AD-B038-051740E0F091}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AF8A1EA-C16C-47AD-B038-051740E0F091}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B2D099E-1BC2-4A24-BF99-4AEEF3EF07B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B2D099E-1BC2-4A24-BF99-4AEEF3EF07B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B2D099E-1BC2-4A24-BF99-4AEEF3EF07B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B2D099E-1BC2-4A24-BF99-4AEEF3EF07B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65DEFF51-D5B7-49C0-B70B-7B5061C01BFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65DEFF51-D5B7-49C0-B70B-7B5061C01BFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65DEFF51-D5B7-49C0-B70B-7B5061C01BFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65DEFF51-D5B7-49C0-B70B-7B5061C01BFA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EF1E1118-797A-40C5-AA81-E20C1B6B52F1} = {5212A200-5C4C-42CE-AAEF-A8F5F9314B2A}
+		{CC02B6B3-4C3A-41AE-8611-689E7014B164} = {5212A200-5C4C-42CE-AAEF-A8F5F9314B2A}
+		{265A6549-7879-4156-A2E5-0C414A12AEE1} = {EF1E1118-797A-40C5-AA81-E20C1B6B52F1}
+		{2AF8A1EA-C16C-47AD-B038-051740E0F091} = {CC02B6B3-4C3A-41AE-8611-689E7014B164}
+		{1B2D099E-1BC2-4A24-BF99-4AEEF3EF07B3} = {CC02B6B3-4C3A-41AE-8611-689E7014B164}
+		{F4E2C5B2-D909-48EC-9835-EB9FA52964FB} = {5212A200-5C4C-42CE-AAEF-A8F5F9314B2A}
+		{65DEFF51-D5B7-49C0-B70B-7B5061C01BFA} = {F4E2C5B2-D909-48EC-9835-EB9FA52964FB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {10F324A9-2499-446B-9DAE-2610BA08882B}
+	EndGlobalSection
+EndGlobal

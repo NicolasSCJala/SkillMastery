@@ -1,0 +1,33 @@
+version: '3.8'
+
+services:
+  postgres-database:
+    image: postgres:latest
+    container_name: postgres-container
+    environment:
+      POSTGRES_DB: skilmastery
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - skillmastery-network
+  api:
+     container_name: backend-container
+     image: skillmastery-backend:v1
+     build: .
+     ports:
+       - 5209:8080
+     depends_on:
+       - postgres-database
+     networks:
+       - skillmastery-network
+
+volumes:
+  postgres_data:
+
+networks:
+  skillmastery-network:
+    driver: bridge
