@@ -1,7 +1,7 @@
 # This workflow will build a .NET project
 # For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-net
 
-name: DI
+name: CI
 
 on:
   push:
@@ -17,9 +17,11 @@ jobs:
     - name: Setup .NET
       uses: actions/setup-dotnet@v3
       with:
-        dotnet-version: 7.0.x
+        dotnet-version: 8.0.x
     - name: Go to folder
       run: cd SkillMasteryAPI
+    - name: Go to folder
+      run: ls
     - name: Restore dependencies
       run: dotnet restore
     - name: Build
