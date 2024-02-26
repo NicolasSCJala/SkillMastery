@@ -14,7 +14,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
     - name: Go to sln file
-      run: cd SkillMasteryAPI
+      run: cd SkillMasteryAPI/SkillMasteryAPI.sln
     - name: Restore dependencies
       run: dotnet restore
     - name: Build
