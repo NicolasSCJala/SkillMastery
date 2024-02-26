@@ -1,43 +1,41 @@
-FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /app
 EXPOSE 80
 EXPOSE 443
 
-FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
+# Copy csproj and restore as distinct layers
+COPY SkillMasteryAPI/*.sln .
+COPY SkillMasteryAPI/src/Core/SkillMasteryAPI.Application/*.csproj src/Core/SkillMasteryAPI.Application/
+COPY SkillMasteryAPI/src/Core/SkillMasteryAPI.Domain/*.csproj src/Core/SkillMasteryAPI.Domain/
+COPY SkillMasteryAPI/src/Infrastructure/SkillMasteryAPI.Infrastructure/*.csproj src/Infrastructure/SkillMasteryAPI.Infrastructure/
+COPY SkillMasteryAPI/src/Presentation/SkillMasteryAPI.Presentation/*.csproj src/Presentation/SkillMasteryAPI.Presentation/
 
-WORKDIR /src
-COPY Directory.Build.props .
-COPY Directory.Packages.props .
+## Template for future testing
+##COPY SkillMasteryAPI/tests/SkillMasteryAPI.Application.Tests/*.csproj tests/SkillMasteryAPI.Application.Tests/
+##COPY SkillMasteryAPI/tests/SkillMasteryAPI.Infraestructure.Tests/*.csproj tests/SkillMasteryAPI.Infraestructure.Tests/
+##COPY SkillMasteryAPI/tests/SkillMasteryAPI.Presentation.Tests/*.csproj tests/SkillMasteryAPI.Presentation.Tests/
+##COPY SkillMasteryAPI/tests/SkillMasteryAPI.Integration.Tests/*.csproj tests/SkillMasteryAPI.Integration.Tests/
 
-COPY ["SkillMasteryAPI/src/Core/SkillMasteryAPI.Domain/SkillMasteryAPI.Domain.csproj", "."]
-RUN dotnet restore "SkillMasteryAPI.Domain.csproj"
-COPY ["SkillMasteryAPI/src/Core/SkillMasteryAPI.Application/SkillMasteryAPI.Application.csproj", "."]
-RUN dotnet restore "SkillMasteryAPI.Application.csproj"
+RUN dotnet restore src/Presentation/SkillMasteryAPI.Presentation/SkillMasteryAPI.Presentation.csproj
 
-COPY ["SkillMasteryAPI/src/Infrastructure/SkillMasteryAPI.Infrastructure/SkillMasteryAPI.Infrastructure.csproj", "."]
-RUN dotnet restore "SkillMasteryAPI.Infrastructure.csproj"
+# Copy everything else and build
+COPY SkillMasteryAPI/src/Core/SkillMasteryAPI.Application/. ./src/Core/SkillMasteryAPI.Application/
+COPY SkillMasteryAPI/src/Core/SkillMasteryAPI.Domain/. ./src/Core/SkillMasteryAPI.Domain/
+COPY SkillMasteryAPI/src/Infrastructure/SkillMasteryAPI.Infrastructure/. ./src/Infrastructure/SkillMasteryAPI.Infrastructure/
+COPY SkillMasteryAPI/src/Presentation/SkillMasteryAPI.Presentation/. ./src/Presentation/SkillMasteryAPI.Presentation/
 
 
-COPY ["SkillMasteryAPI/src/API/SkillMasteryAPI.Api/SkillMasteryAPI.Api.csproj", "."]
-RUN dotnet restore "SkillMasteryAPI.Api.csproj"
+##COPY SkillMasteryAPI/tests/SkillMasteryAPI.Application.Tests/. ./tests/SkillMasteryAPI.Application.Tests/
+##COPY SkillMasteryAPI/tests/SkillMasteryAPI.Infraestructure.Tests/. ./tests/SkillMasteryAPI.Infraestructure.Tests/
+##COPY SkillMasteryAPI/tests/SkillMasteryAPI.Presentation.Tests/. ./tests/SkillMasteryAPI.Presentation.Tests/
+##COPY SkillMasteryAPI/tests/SkillMasteryAPI.Integration.Tests/. ./tests/SkillMasteryAPI.Integration.Tests/
 
-COPY ["SkillMasteryAPI/src/.", "."]
-WORKDIR "/src/Core/SkillMasteryAPI.Models"
-RUN dotnet build "SkillMasteryAPI.Models.csproj" -c Release -o /app/build
-WORKDIR "/src/Core/SkillMasteryAPI.Application"
-RUN dotnet build "SkillMasteryAPI.Application.csproj" -c Release -o /app/build
+RUN dotnet publish -c Release -o out
 
-WORKDIR "/src/Infrastructure/SkillMasteryAPI.Infrastructure"
-RUN dotnet build "SkillMasteryAPI.Infrastructure.csproj" -c Release -o /app/build
-
-WORKDIR "/src/API/SkillMasteryAPI.Api"
-RUN dotnet build "SkillMasteryAPI.Api.csproj" -c Release -o /app/build
-
-FROM build AS publish
-WORKDIR "/src/API/SkillMasteryAPI.Api"
-RUN dotnet publish -c Release -o /app/publish /p:UseAppHost=false
-
-FROM base AS final
+FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS runtime
 WORKDIR /app
-COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "SkillMasteryAPI.Api.dll"]
+##
+COPY --from=build /app/out/ .
+##COPY SkillMasteryAPI/src/SkillMasteryAPI.Presentation/Certificates/. /app/Certificates
+
+ENTRYPOINT ["dotnet", "SkillMasteryAPI.Presentation.dll"]
