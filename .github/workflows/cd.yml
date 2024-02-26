@@ -28,9 +28,9 @@ jobs:
     - name: Push to
       run: docker push ${{secrets.DOCKER_HUB_USERNAME}}/backend:v${{ secrets.BACKEND_MAJOR }}.${{ secrets.BACKEND_MINOR }}
     - name: Tagin frontend with latest
-      run: docker tag klockan-backend:v1 klockan/backend:latest
+      run: docker tag skillmastery-backend ${{secrets.DOCKER_HUB_USERNAME}}/skillmastery:latest
     - name: Push to docker hub
-      run: docker push klockan/backend:latest 
+      run: docker push ${{secrets.DOCKER_HUB_USERNAME}}/skillmastery:latest 
 
 ##  deploy:
 ##    runs-on: ubuntu-latest
