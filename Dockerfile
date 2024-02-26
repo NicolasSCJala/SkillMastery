@@ -1,7 +1,8 @@
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /app
-EXPOSE 80
-EXPOSE 443
+EXPOSE 8080
+EXPOSE 5432
+EXPOSE 5209
 
 # Copy csproj and restore as distinct layers
 COPY SkillMasteryAPI/*.sln .

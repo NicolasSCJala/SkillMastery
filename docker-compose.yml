@@ -1,25 +1,33 @@
 version: '3.8'
 
 services:
-  db:
-    image: postgres
-    container_name: skill-mastery-db
-    restart: always
+  postgres-database:
+    image: postgres:latest
+    container_name: postgres-container
     environment:
-      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: skilmastery
       POSTGRES_USER: postgres
-      POSTGRES_DB: postgres
+      POSTGRES_PASSWORD: postgres
     ports:
-      - 5432:5432
+      - "5432:5432"
     volumes:
-      - ./data:/var/lib/postgresql/data
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - skillmastery-network
   api:
-    image: skill-mastery-api:latest
-    container_name: skill-mastery-api
-    restart: always
-    environment:
-      ConnectionStrings__QuizAPIConnectionString: "Host=db;Port=5432;Database=skillmastery;Username=postgres;Password=postgres"
-    ports:
-      - 5000:80
-    depends_on:
-      - db
+     container_name: backend-container
+     image: skillmastery-backend:v1
+     build: .
+     ports:
+       - 5209:8080
+     depends_on:
+       - postgres-database
+     networks:
+       - skillmastery-network
+
+volumes:
+  postgres_data:
+
+networks:
+  skillmastery-network:
+    driver: bridge

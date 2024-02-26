@@ -12,8 +12,8 @@ using SkillMasteryAPI.Infrastructure.Data;
 namespace SkillMasteryAPI.Infrastructure.Migrations
 {
     [DbContext(typeof(SkillMasteryContext))]
-    [Migration("20240225205033_Init")]
-    partial class Init
+    [Migration("20240226031041_init")]
+    partial class init
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
