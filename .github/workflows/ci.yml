@@ -18,12 +18,8 @@ jobs:
       uses: actions/setup-dotnet@v3
       with:
         dotnet-version: 8.0.x
-    - name: Go to folder
-      run: cd SkillMasteryAPI
-    - name: Go to folder
-      run: ls
     - name: Restore dependencies
-      run: dotnet restore
+      run: dotnet restore ./SkillMasteryAPI/SkillMasteryAPI.sln
     - name: Build
       run: dotnet build --no-restore
 
