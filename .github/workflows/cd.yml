@@ -28,7 +28,7 @@ jobs:
     - name: Push to
       run: docker push ${{secrets.DOCKER_HUB_USERNAME}}/skillmastery:v${{ secrets.BACKEND_MAJOR }}.${{ secrets.BACKEND_MINOR }}
     - name: Tagin frontend with latest
-      run: docker tag skillmastery-backend ${{secrets.DOCKER_HUB_USERNAME}}/skillmastery:latest
+      run: docker tag skillmastery-backend:v1 ${{secrets.DOCKER_HUB_USERNAME}}/skillmastery:latest
     - name: Push to docker hub
       run: docker push ${{secrets.DOCKER_HUB_USERNAME}}/skillmastery:latest 
 
