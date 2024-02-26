@@ -1,0 +1,51 @@
+# Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
+# More GitHub Actions for Azure: https://github.com/Azure/actions
+
+name: Build and deploy container app to Azure Web App - quiz-craft-api
+
+env:
+  AZURE_WEBAPP_NAME: quiz-craft-api  
+
+on:
+  push:
+      branches:
+        - main
+jobs:
+  build:
+    runs-on: 'ubuntu-latest'
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Login Dockerhub
+      env:
+        DOCKER_USERNAME: ${{secrets.DOCKER_HUB_USERNAME}}
+        DOCKER_PASSWORD: ${{secrets.DOCKER_HUB_PASSWORD}}
+      run: docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD 
+    - name: Build the Docker image
+      run: docker-compose build
+    - name: Tagin back
+      run: docker tag klockan-backend:v1 klockan/backend:v${{ secrets.BACKEND_MAJOR }}.${{ secrets.BACKEND_MINOR }}
+    - name: Push to
+      run: docker push klockan/backend:v${{ secrets.BACKEND_MAJOR }}.${{ secrets.BACKEND_MINOR }}
+    - name: Tagin frontend with latest
+      run: docker tag klockan-backend:v1 klockan/backend:latest
+    - name: Push to docker hub
+      run: docker push klockan/backend:latest 
+
+##  deploy:
+##    runs-on: ubuntu-latest
+##    needs: build
+##    environment:
+##      name: 'production'
+##      url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
+
+##    steps:
+##    - name: Deploy to Azure Web App
+##      id: deploy-to-webapp
+##      uses: azure/webapps-deploy@v2
+##      with:
+##        app-name: '${{ env.AZURE_WEBAPP_NAME }}'
+##        slot-name: 'production'
+##        publish-profile: ${{ secrets.AzureAppService_PublishProfile_4f844c24975e49e583ecf1c94c412769 }}
+##        images: '${{ secrets.AzureAppService_ContainerUsername_a7c7da46fa374c2dad471477e7df4475 }}/${{ env.AZURE_WEBAPP_NAME }}:${{ github.sha }}'
