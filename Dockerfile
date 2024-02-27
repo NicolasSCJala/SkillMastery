@@ -1,6 +1,6 @@
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /app
-EXPOSE 8080
+EXPOSE 80
 EXPOSE 5432
 EXPOSE 5209
 
