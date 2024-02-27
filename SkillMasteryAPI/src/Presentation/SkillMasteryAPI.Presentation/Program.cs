@@ -23,6 +23,7 @@ public class Program
 
 
         var app = builder.Build();
+        app.Urls.Add("http;//*:80");
         app.UseResponseCompression();
         // Configure the HTTP request pipeline.
    
