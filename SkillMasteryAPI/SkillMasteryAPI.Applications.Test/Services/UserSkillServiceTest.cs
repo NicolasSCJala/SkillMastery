@@ -96,8 +96,9 @@ public class UserSkillServiceTests
         // Arrange
         var createUserSkillDTO = new CreateUserSkillDTO
         {
-            Name = "Create UserSkill DTO Test",
-            Description = "Create UserSkill DTO Test Description.",
+            Status = true,
+            SkillId = 1,
+            UserId = 1,
         };
 
         var userskill = new UserSkill

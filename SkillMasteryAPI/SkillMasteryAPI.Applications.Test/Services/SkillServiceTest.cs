@@ -5,7 +5,7 @@ using MapsterMapper;
 using Microsoft.AspNetCore.Mvc;
 
 using SkillMasteryAPI.Domain.Models;
-using SkillMasteryAPI.Application.Services
+using SkillMasteryAPI.Application.Services;
 
 using SkillMasteryAPI.Infrastructure.Repositories.Interfaces;
 using SkillMasteryAPI.Application.CrossCutting;
@@ -216,7 +216,7 @@ public class SkillServiceTests
         {
             Id = 1,
             Name = "Initial Skill",
-            Description = "Initial Skill Description"
+            Description = "Initial Skill Description",
             DificultyId = 2
         };
 
@@ -225,7 +225,7 @@ public class SkillServiceTests
         {
             Id = 1,
             Name = "Updated Skill",
-            Description = "Updated Skill Description"
+            Description = "Updated Skill Description",
             DificultyId = 2
         };
         _skillRepository.EditSkillAsync(Arg.Any<Skill>()).Returns(Task.FromResult(updatedSkill));
