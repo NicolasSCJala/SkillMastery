@@ -13,7 +13,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.ResponseCompression;
 
 namespace SkillMasteryAPI.Presentation;
-public class Program
+public class Skill
 {
     public static void Main(string[] args)
     {
