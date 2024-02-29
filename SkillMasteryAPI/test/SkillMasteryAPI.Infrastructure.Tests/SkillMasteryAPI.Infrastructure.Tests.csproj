@@ -10,11 +10,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-   
+    
   </ItemGroup>
 
   <ItemGroup>
     <Using Include="Xunit" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Repository\" />
   </ItemGroup>
 
 </Project>
