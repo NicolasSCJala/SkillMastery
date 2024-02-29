@@ -4,7 +4,7 @@
 name: Build and deploy container app to Azure Web App -
 
 env:
-  AZURE_WEBAPP_NAME: Backend-SkillMastery
+  AZURE_WEBAPP_NAME: SkillMastery
 on:
   push:
       branches:
