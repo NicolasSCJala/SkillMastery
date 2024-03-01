@@ -2,8 +2,7 @@ name: Script
 
 on:
   push:
-      branches:
-        - script
+    branches: [ "script" ]
 jobs:
   build:
     runs-on: ubuntu-latest 
