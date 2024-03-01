@@ -1,0 +1,16 @@
+name: Script
+
+on:
+  push:
+      branches:
+        - script
+jobs:
+  build:
+    runs-on: ubuntu-latest 
+    environment: secrets
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+    - name: See information of file
+      run: cat SkillMasteryAPI/src/Presentation/SkillMasteryAPI.Presentation/appsettins.json
+
