@@ -3,16 +3,60 @@
   "WorkspaceRootPath": "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\src\\Infrastructure\\SkillMasteryAPI.Infrastructure\\Migrations\\20240229204525_Init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Infrastructure\\SkillMasteryAPI.Infrastructure\\Migrations\\20240229204525_Init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{65DEFF51-D5B7-49C0-B70B-7B5061C01BFA}|src\\Presentation\\SkillMasteryAPI.Presentation\\SkillMasteryAPI.Presentation.csproj|c:\\users\\nicos\\source\\repos\\skillmastery\\skillmasteryapi\\src\\presentation\\skillmasteryapi.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65DEFF51-D5B7-49C0-B70B-7B5061C01BFA}|src\\Presentation\\SkillMasteryAPI.Presentation\\SkillMasteryAPI.Presentation.csproj|solutionrelative:src\\presentation\\skillmasteryapi.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65DEFF51-D5B7-49C0-B70B-7B5061C01BFA}|src\\Presentation\\SkillMasteryAPI.Presentation\\SkillMasteryAPI.Presentation.csproj|c:\\users\\nicos\\source\\repos\\skillmastery\\skillmasteryapi\\src\\presentation\\skillmasteryapi.presentation\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{65DEFF51-D5B7-49C0-B70B-7B5061C01BFA}|src\\Presentation\\SkillMasteryAPI.Presentation\\SkillMasteryAPI.Presentation.csproj|solutionrelative:src\\presentation\\skillmasteryapi.presentation\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{65DEFF51-D5B7-49C0-B70B-7B5061C01BFA}|src\\Presentation\\SkillMasteryAPI.Presentation\\SkillMasteryAPI.Presentation.csproj|c:\\users\\nicos\\source\\repos\\skillmastery\\skillmasteryapi\\src\\presentation\\skillmasteryapi.presentation\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65DEFF51-D5B7-49C0-B70B-7B5061C01BFA}|src\\Presentation\\SkillMasteryAPI.Presentation\\SkillMasteryAPI.Presentation.csproj|solutionrelative:src\\presentation\\skillmasteryapi.presentation\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65DEFF51-D5B7-49C0-B70B-7B5061C01BFA}|src\\Presentation\\SkillMasteryAPI.Presentation\\SkillMasteryAPI.Presentation.csproj|c:\\users\\nicos\\source\\repos\\skillmastery\\skillmasteryapi\\src\\presentation\\skillmasteryapi.presentation\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{65DEFF51-D5B7-49C0-B70B-7B5061C01BFA}|src\\Presentation\\SkillMasteryAPI.Presentation\\SkillMasteryAPI.Presentation.csproj|solutionrelative:src\\presentation\\skillmasteryapi.presentation\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{65DEFF51-D5B7-49C0-B70B-7B5061C01BFA}|src\\Presentation\\SkillMasteryAPI.Presentation\\SkillMasteryAPI.Presentation.csproj|c:\\users\\nicos\\source\\repos\\skillmastery\\skillmasteryapi\\src\\presentation\\skillmasteryapi.presentation\\controllers\\userskillcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65DEFF51-D5B7-49C0-B70B-7B5061C01BFA}|src\\Presentation\\SkillMasteryAPI.Presentation\\SkillMasteryAPI.Presentation.csproj|solutionrelative:src\\presentation\\skillmasteryapi.presentation\\controllers\\userskillcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65DEFF51-D5B7-49C0-B70B-7B5061C01BFA}|src\\Presentation\\SkillMasteryAPI.Presentation\\SkillMasteryAPI.Presentation.csproj|c:\\users\\nicos\\source\\repos\\skillmastery\\skillmasteryapi\\src\\presentation\\skillmasteryapi.presentation\\controllers\\skillcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65DEFF51-D5B7-49C0-B70B-7B5061C01BFA}|src\\Presentation\\SkillMasteryAPI.Presentation\\SkillMasteryAPI.Presentation.csproj|solutionrelative:src\\presentation\\skillmasteryapi.presentation\\controllers\\skillcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65DEFF51-D5B7-49C0-B70B-7B5061C01BFA}|src\\Presentation\\SkillMasteryAPI.Presentation\\SkillMasteryAPI.Presentation.csproj|c:\\users\\nicos\\source\\repos\\skillmastery\\skillmasteryapi\\src\\presentation\\skillmasteryapi.presentation\\controllers\\goalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65DEFF51-D5B7-49C0-B70B-7B5061C01BFA}|src\\Presentation\\SkillMasteryAPI.Presentation\\SkillMasteryAPI.Presentation.csproj|solutionrelative:src\\presentation\\skillmasteryapi.presentation\\controllers\\goalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1C42C48-7440-462D-8308-62B96E11456A}|tests\\SkillMasteryAPI.Presentation.Tests\\SkillMasteryAPI.Presentation.Tests.csproj|c:\\users\\nicos\\source\\repos\\skillmastery\\skillmasteryapi\\tests\\skillmasteryapi.presentation.tests\\controllers\\userskillcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1C42C48-7440-462D-8308-62B96E11456A}|tests\\SkillMasteryAPI.Presentation.Tests\\SkillMasteryAPI.Presentation.Tests.csproj|solutionrelative:tests\\skillmasteryapi.presentation.tests\\controllers\\userskillcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11073A84-B4EA-424C-93F2-5F99EC2E5DEA}|tests\\SkillMasteryAPI.Infrastructure.Tests\\SkillMasteryAPI.Infrastructure.Tests.csproj|c:\\users\\nicos\\source\\repos\\skillmastery\\skillmasteryapi\\tests\\skillmasteryapi.infrastructure.tests\\repositories\\userskillrespositorytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11073A84-B4EA-424C-93F2-5F99EC2E5DEA}|tests\\SkillMasteryAPI.Infrastructure.Tests\\SkillMasteryAPI.Infrastructure.Tests.csproj|solutionrelative:tests\\skillmasteryapi.infrastructure.tests\\repositories\\userskillrespositorytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1C42C48-7440-462D-8308-62B96E11456A}|tests\\SkillMasteryAPI.Presentation.Tests\\SkillMasteryAPI.Presentation.Tests.csproj|c:\\users\\nicos\\source\\repos\\skillmastery\\skillmasteryapi\\tests\\skillmasteryapi.presentation.tests\\controllers\\usercontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1C42C48-7440-462D-8308-62B96E11456A}|tests\\SkillMasteryAPI.Presentation.Tests\\SkillMasteryAPI.Presentation.Tests.csproj|solutionrelative:tests\\skillmasteryapi.presentation.tests\\controllers\\usercontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1C42C48-7440-462D-8308-62B96E11456A}|tests\\SkillMasteryAPI.Presentation.Tests\\SkillMasteryAPI.Presentation.Tests.csproj|c:\\users\\nicos\\source\\repos\\skillmastery\\skillmasteryapi\\tests\\skillmasteryapi.presentation.tests\\controllers\\skillcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1C42C48-7440-462D-8308-62B96E11456A}|tests\\SkillMasteryAPI.Presentation.Tests\\SkillMasteryAPI.Presentation.Tests.csproj|solutionrelative:tests\\skillmasteryapi.presentation.tests\\controllers\\skillcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11073A84-B4EA-424C-93F2-5F99EC2E5DEA}|tests\\SkillMasteryAPI.Infrastructure.Tests\\SkillMasteryAPI.Infrastructure.Tests.csproj|c:\\users\\nicos\\source\\repos\\skillmastery\\skillmasteryapi\\tests\\skillmasteryapi.infrastructure.tests\\repositories\\userrepositorytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11073A84-B4EA-424C-93F2-5F99EC2E5DEA}|tests\\SkillMasteryAPI.Infrastructure.Tests\\SkillMasteryAPI.Infrastructure.Tests.csproj|solutionrelative:tests\\skillmasteryapi.infrastructure.tests\\repositories\\userrepositorytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11073A84-B4EA-424C-93F2-5F99EC2E5DEA}|tests\\SkillMasteryAPI.Infrastructure.Tests\\SkillMasteryAPI.Infrastructure.Tests.csproj|c:\\users\\nicos\\source\\repos\\skillmastery\\skillmasteryapi\\tests\\skillmasteryapi.infrastructure.tests\\repositories\\skillrespositorytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11073A84-B4EA-424C-93F2-5F99EC2E5DEA}|tests\\SkillMasteryAPI.Infrastructure.Tests\\SkillMasteryAPI.Infrastructure.Tests.csproj|solutionrelative:tests\\skillmasteryapi.infrastructure.tests\\repositories\\skillrespositorytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1C42C48-7440-462D-8308-62B96E11456A}|tests\\SkillMasteryAPI.Presentation.Tests\\SkillMasteryAPI.Presentation.Tests.csproj|c:\\users\\nicos\\source\\repos\\skillmastery\\skillmasteryapi\\tests\\skillmasteryapi.presentation.tests\\controllers\\goalcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1C42C48-7440-462D-8308-62B96E11456A}|tests\\SkillMasteryAPI.Presentation.Tests\\SkillMasteryAPI.Presentation.Tests.csproj|solutionrelative:tests\\skillmasteryapi.presentation.tests\\controllers\\goalcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1C42C48-7440-462D-8308-62B96E11456A}|tests\\SkillMasteryAPI.Presentation.Tests\\SkillMasteryAPI.Presentation.Tests.csproj|c:\\users\\nicos\\source\\repos\\skillmastery\\skillmasteryapi\\tests\\skillmasteryapi.presentation.tests\\skillmasteryapi.presentation.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B1C42C48-7440-462D-8308-62B96E11456A}|tests\\SkillMasteryAPI.Presentation.Tests\\SkillMasteryAPI.Presentation.Tests.csproj|solutionrelative:tests\\skillmasteryapi.presentation.tests\\skillmasteryapi.presentation.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{589B6C3E-D822-4F69-89B7-35A4B1BB9ED8}|tests\\SkillMasteryAPI.Application.Tests\\SkillMasteryAPI.Application.Tests.csproj|c:\\users\\nicos\\source\\repos\\skillmastery\\skillmasteryapi\\tests\\skillmasteryapi.application.tests\\skillmasteryapi.application.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{589B6C3E-D822-4F69-89B7-35A4B1BB9ED8}|tests\\SkillMasteryAPI.Application.Tests\\SkillMasteryAPI.Application.Tests.csproj|solutionrelative:tests\\skillmasteryapi.application.tests\\skillmasteryapi.application.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,49 +66,192 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\src\\Presentation\\SkillMasteryAPI.Presentation\\Program.cs",
+              "RelativeDocumentMoniker": "src\\Presentation\\SkillMasteryAPI.Presentation\\Program.cs",
+              "ToolTip": "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\src\\Presentation\\SkillMasteryAPI.Presentation\\Program.cs",
+              "RelativeToolTip": "src\\Presentation\\SkillMasteryAPI.Presentation\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T20:53:12.993Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20240229204525_Init.cs",
-              "DocumentMoniker": "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\src\\Infrastructure\\SkillMasteryAPI.Infrastructure\\Migrations\\20240229204525_Init.cs",
-              "RelativeDocumentMoniker": "src\\Infrastructure\\SkillMasteryAPI.Infrastructure\\Migrations\\20240229204525_Init.cs",
-              "ToolTip": "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\src\\Infrastructure\\SkillMasteryAPI.Infrastructure\\Migrations\\20240229204525_Init.cs",
-              "RelativeToolTip": "src\\Infrastructure\\SkillMasteryAPI.Infrastructure\\Migrations\\20240229204525_Init.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\src\\Presentation\\SkillMasteryAPI.Presentation\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "src\\Presentation\\SkillMasteryAPI.Presentation\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\src\\Presentation\\SkillMasteryAPI.Presentation\\Controllers\\UserController.cs",
+              "RelativeToolTip": "src\\Presentation\\SkillMasteryAPI.Presentation\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-29T20:45:25.642Z",
+              "WhenOpened": "2024-03-02T20:53:04.126Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\src\\Presentation\\SkillMasteryAPI.Presentation\\appsettings.json",
-              "RelativeDocumentMoniker": "src\\Presentation\\SkillMasteryAPI.Presentation\\appsettings.json",
-              "ToolTip": "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\src\\Presentation\\SkillMasteryAPI.Presentation\\appsettings.json",
-              "RelativeToolTip": "src\\Presentation\\SkillMasteryAPI.Presentation\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-02-29T20:25:12.057Z",
+              "Title": "UserSkillController.cs",
+              "DocumentMoniker": "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\src\\Presentation\\SkillMasteryAPI.Presentation\\Controllers\\UserSkillController.cs",
+              "RelativeDocumentMoniker": "src\\Presentation\\SkillMasteryAPI.Presentation\\Controllers\\UserSkillController.cs",
+              "ToolTip": "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\src\\Presentation\\SkillMasteryAPI.Presentation\\Controllers\\UserSkillController.cs",
+              "RelativeToolTip": "src\\Presentation\\SkillMasteryAPI.Presentation\\Controllers\\UserSkillController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T20:52:57.007Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\src\\Presentation\\SkillMasteryAPI.Presentation\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "src\\Presentation\\SkillMasteryAPI.Presentation\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\src\\Presentation\\SkillMasteryAPI.Presentation\\appsettings.Development.json",
-              "RelativeToolTip": "src\\Presentation\\SkillMasteryAPI.Presentation\\appsettings.Development.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAmwAsAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-02-29T20:16:21.102Z",
+              "DocumentIndex": 3,
+              "Title": "SkillController.cs",
+              "DocumentMoniker": "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\src\\Presentation\\SkillMasteryAPI.Presentation\\Controllers\\SkillController.cs",
+              "RelativeDocumentMoniker": "src\\Presentation\\SkillMasteryAPI.Presentation\\Controllers\\SkillController.cs",
+              "ToolTip": "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\src\\Presentation\\SkillMasteryAPI.Presentation\\Controllers\\SkillController.cs",
+              "RelativeToolTip": "src\\Presentation\\SkillMasteryAPI.Presentation\\Controllers\\SkillController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T20:52:49.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GoalController.cs",
+              "DocumentMoniker": "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\src\\Presentation\\SkillMasteryAPI.Presentation\\Controllers\\GoalController.cs",
+              "RelativeDocumentMoniker": "src\\Presentation\\SkillMasteryAPI.Presentation\\Controllers\\GoalController.cs",
+              "ToolTip": "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\src\\Presentation\\SkillMasteryAPI.Presentation\\Controllers\\GoalController.cs",
+              "RelativeToolTip": "src\\Presentation\\SkillMasteryAPI.Presentation\\Controllers\\GoalController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T20:51:28.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SkillRespositoryTests.cs",
+              "DocumentMoniker": "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\tests\\SkillMasteryAPI.Infrastructure.Tests\\Repositories\\SkillRespositoryTests.cs",
+              "RelativeDocumentMoniker": "tests\\SkillMasteryAPI.Infrastructure.Tests\\Repositories\\SkillRespositoryTests.cs",
+              "ToolTip": "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\tests\\SkillMasteryAPI.Infrastructure.Tests\\Repositories\\SkillRespositoryTests.cs",
+              "RelativeToolTip": "tests\\SkillMasteryAPI.Infrastructure.Tests\\Repositories\\SkillRespositoryTests.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAwwCgAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T20:35:49.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserSkillControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\tests\\SkillMasteryAPI.Presentation.Tests\\Controllers\\UserSkillControllerTests.cs",
+              "RelativeDocumentMoniker": "tests\\SkillMasteryAPI.Presentation.Tests\\Controllers\\UserSkillControllerTests.cs",
+              "ToolTip": "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\tests\\SkillMasteryAPI.Presentation.Tests\\Controllers\\UserSkillControllerTests.cs",
+              "RelativeToolTip": "tests\\SkillMasteryAPI.Presentation.Tests\\Controllers\\UserSkillControllerTests.cs",
+              "ViewState": "AQIAAOYAAAAAAAAAAAAswNMAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T20:32:11.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SkillControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\tests\\SkillMasteryAPI.Presentation.Tests\\Controllers\\SkillControllerTests.cs",
+              "RelativeDocumentMoniker": "tests\\SkillMasteryAPI.Presentation.Tests\\Controllers\\SkillControllerTests.cs",
+              "ToolTip": "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\tests\\SkillMasteryAPI.Presentation.Tests\\Controllers\\SkillControllerTests.cs",
+              "RelativeToolTip": "tests\\SkillMasteryAPI.Presentation.Tests\\Controllers\\SkillControllerTests.cs",
+              "ViewState": "AQIAAJQAAAAAAAAAAAAgwM0AAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T20:31:35.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\tests\\SkillMasteryAPI.Presentation.Tests\\Controllers\\UserControllerTests.cs",
+              "RelativeDocumentMoniker": "tests\\SkillMasteryAPI.Presentation.Tests\\Controllers\\UserControllerTests.cs",
+              "ToolTip": "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\tests\\SkillMasteryAPI.Presentation.Tests\\Controllers\\UserControllerTests.cs",
+              "RelativeToolTip": "tests\\SkillMasteryAPI.Presentation.Tests\\Controllers\\UserControllerTests.cs",
+              "ViewState": "AQIAAIAAAAAAAAAAAAAAwNMAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T20:27:13.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GoalControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\tests\\SkillMasteryAPI.Presentation.Tests\\Controllers\\GoalControllerTests.cs",
+              "RelativeDocumentMoniker": "tests\\SkillMasteryAPI.Presentation.Tests\\Controllers\\GoalControllerTests.cs",
+              "ToolTip": "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\tests\\SkillMasteryAPI.Presentation.Tests\\Controllers\\GoalControllerTests.cs",
+              "RelativeToolTip": "tests\\SkillMasteryAPI.Presentation.Tests\\Controllers\\GoalControllerTests.cs",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAAAFIAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T20:26:53.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserRepositoryTests.cs",
+              "DocumentMoniker": "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\tests\\SkillMasteryAPI.Infrastructure.Tests\\Repositories\\UserRepositoryTests.cs",
+              "RelativeDocumentMoniker": "tests\\SkillMasteryAPI.Infrastructure.Tests\\Repositories\\UserRepositoryTests.cs",
+              "ToolTip": "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\tests\\SkillMasteryAPI.Infrastructure.Tests\\Repositories\\UserRepositoryTests.cs",
+              "RelativeToolTip": "tests\\SkillMasteryAPI.Infrastructure.Tests\\Repositories\\UserRepositoryTests.cs",
+              "ViewState": "AQIAAKsAAAAAAAAAAAAAALsAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T19:39:35.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserSkillRespositoryTests.cs",
+              "DocumentMoniker": "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\tests\\SkillMasteryAPI.Infrastructure.Tests\\Repositories\\UserSkillRespositoryTests.cs",
+              "RelativeDocumentMoniker": "tests\\SkillMasteryAPI.Infrastructure.Tests\\Repositories\\UserSkillRespositoryTests.cs",
+              "ToolTip": "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\tests\\SkillMasteryAPI.Infrastructure.Tests\\Repositories\\UserSkillRespositoryTests.cs",
+              "RelativeToolTip": "tests\\SkillMasteryAPI.Infrastructure.Tests\\Repositories\\UserSkillRespositoryTests.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAowCkAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T19:32:46.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SkillMasteryAPI.Application.Tests",
+              "DocumentMoniker": "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\tests\\SkillMasteryAPI.Application.Tests\\SkillMasteryAPI.Application.Tests.csproj",
+              "RelativeDocumentMoniker": "tests\\SkillMasteryAPI.Application.Tests\\SkillMasteryAPI.Application.Tests.csproj",
+              "ToolTip": "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\tests\\SkillMasteryAPI.Application.Tests\\SkillMasteryAPI.Application.Tests.csproj",
+              "RelativeToolTip": "tests\\SkillMasteryAPI.Application.Tests\\SkillMasteryAPI.Application.Tests.csproj",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-02T20:30:31.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SkillMasteryAPI.Presentation.Tests",
+              "DocumentMoniker": "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\tests\\SkillMasteryAPI.Presentation.Tests\\SkillMasteryAPI.Presentation.Tests.csproj",
+              "RelativeDocumentMoniker": "tests\\SkillMasteryAPI.Presentation.Tests\\SkillMasteryAPI.Presentation.Tests.csproj",
+              "ToolTip": "C:\\Users\\nicos\\source\\repos\\SkillMastery\\SkillMasteryAPI\\tests\\SkillMasteryAPI.Presentation.Tests\\SkillMasteryAPI.Presentation.Tests.csproj",
+              "RelativeToolTip": "tests\\SkillMasteryAPI.Presentation.Tests\\SkillMasteryAPI.Presentation.Tests.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-02T20:26:14.477Z",
               "EditorCaption": ""
             }
           ]
