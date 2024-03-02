@@ -4,13 +4,13 @@ using SkillMasteryAPI.Infrastructure.Data;
 using SkillMasteryAPI.Application;
 using SkillMasteryAPI.Presentation.Middlewares;
 
-
 using Microsoft.AspNetCore.Mvc;
 using System.Text.Json.Serialization;
 using System.Text.Json;
 using FluentValidation.AspNetCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.ResponseCompression;
+using ApiVersion = Asp.Versioning.ApiVersion;
 
 namespace SkillMasteryAPI.Presentation;
 public class Skill
@@ -85,7 +85,26 @@ public class Skill
 
         // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
         builder.Services.AddEndpointsApiExplorer();
-        
+
+        var apiVersioningBuilder = builder.Services.AddApiVersioning(setupAction =>
+        {
+            setupAction.AssumeDefaultVersionWhenUnspecified = true;
+            setupAction.DefaultApiVersion = new ApiVersion(1, 0);
+            setupAction.ReportApiVersions = true;
+
+        });
+        apiVersioningBuilder.AddApiExplorer(options =>
+        {
+            // add the versioned api explorer, which also adds IApiVersionDescriptionProvider service
+            // note: the specified format code will format the version as "'v'major[.minor][-status]"
+            options.GroupNameFormat = "'v'VVV";
+
+            // note: this option is only necessary when versioning by url segment. the SubstitutionFormat
+            // can also be used to control the format of the API version in route templates
+            options.SubstituteApiVersionInUrl = true;
+        });
+
+
         // ***********  GZIP COMPRESSION ************
         builder.Services.AddResponseCompression(options =>
         {

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SkillMasteryAPI.Presentation")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a9a824df98e881dfc02ea9c5f582b1cdc56daaaa")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+21b872e795c88c1e26cdcb0c1dfe9f63806dc814")]
 [assembly: System.Reflection.AssemblyProductAttribute("SkillMasteryAPI.Presentation")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SkillMasteryAPI.Presentation")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

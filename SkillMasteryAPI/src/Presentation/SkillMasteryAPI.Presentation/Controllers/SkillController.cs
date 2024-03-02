@@ -7,12 +7,8 @@ using SkillMasteryAPI.Application.DTOs.Skill;
 namespace SkillMasteryAPI.Presentation.Controllers;
 
 [ApiController]
-[Route("api/v1/[controller]")]
-
-
-
-/*[Route("api/v{version:apiVersion}/[controller]")]
-[ApiVersion("1.0")]*/
+[Route("api/v{version:apiVersion}/[controller]")]
+[ApiVersion("1.0")]
 public class SkillsController : ControllerBase
 {
     private readonly ISkillService _skillService;
