@@ -12,10 +12,9 @@ COPY SkillMasteryAPI/src/Infrastructure/SkillMasteryAPI.Infrastructure/*.csproj 
 COPY SkillMasteryAPI/src/Presentation/SkillMasteryAPI.Presentation/*.csproj src/Presentation/SkillMasteryAPI.Presentation/
 
 ## Template for future testing
-##COPY SkillMasteryAPI/tests/SkillMasteryAPI.Application.Tests/*.csproj tests/SkillMasteryAPI.Application.Tests/
-##COPY SkillMasteryAPI/tests/SkillMasteryAPI.Infraestructure.Tests/*.csproj tests/SkillMasteryAPI.Infraestructure.Tests/
-##COPY SkillMasteryAPI/tests/SkillMasteryAPI.Presentation.Tests/*.csproj tests/SkillMasteryAPI.Presentation.Tests/
-##COPY SkillMasteryAPI/tests/SkillMasteryAPI.Integration.Tests/*.csproj tests/SkillMasteryAPI.Integration.Tests/
+COPY SkillMasteryAPI/tests/SkillMasteryAPI.Application.Tests/*.csproj tests/SkillMasteryAPI.Application.Tests/
+COPY SkillMasteryAPI/tests/SkillMasteryAPI.Infrastructure.Tests/*.csproj tests/SkillMasteryAPI.Infrastructure.Tests/
+COPY SkillMasteryAPI/tests/SkillMasteryAPI.Presentation.Tests/*.csproj tests/SkillMasteryAPI.Presentation.Tests/
 
 RUN dotnet restore src/Presentation/SkillMasteryAPI.Presentation/SkillMasteryAPI.Presentation.csproj
 
@@ -26,10 +25,9 @@ COPY SkillMasteryAPI/src/Infrastructure/SkillMasteryAPI.Infrastructure/. ./src/I
 COPY SkillMasteryAPI/src/Presentation/SkillMasteryAPI.Presentation/. ./src/Presentation/SkillMasteryAPI.Presentation/
 
 
-##COPY SkillMasteryAPI/tests/SkillMasteryAPI.Application.Tests/. ./tests/SkillMasteryAPI.Application.Tests/
-##COPY SkillMasteryAPI/tests/SkillMasteryAPI.Infraestructure.Tests/. ./tests/SkillMasteryAPI.Infraestructure.Tests/
-##COPY SkillMasteryAPI/tests/SkillMasteryAPI.Presentation.Tests/. ./tests/SkillMasteryAPI.Presentation.Tests/
-##COPY SkillMasteryAPI/tests/SkillMasteryAPI.Integration.Tests/. ./tests/SkillMasteryAPI.Integration.Tests/
+COPY SkillMasteryAPI/tests/SkillMasteryAPI.Application.Tests/. ./tests/SkillMasteryAPI.Application.Tests/
+COPY SkillMasteryAPI/tests/SkillMasteryAPI.Infrastructure.Tests/. ./tests/SkillMasteryAPI.Infrastructure.Tests/
+COPY SkillMasteryAPI/tests/SkillMasteryAPI.Presentation.Tests/. ./tests/SkillMasteryAPI.Presentation.Tests/
 
 RUN dotnet publish -c Release -o out
 

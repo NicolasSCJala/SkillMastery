@@ -35,7 +35,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkillMasteryAPI.Presentatio
 		{265A6549-7879-4156-A2E5-0C414A12AEE1} = {265A6549-7879-4156-A2E5-0C414A12AEE1}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillMasteryAPI.Aplication.Tests", "tests\SkillMasteryAPI.Aplication.Tests\SkillMasteryAPI.Aplication.Tests.csproj", "{589B6C3E-D822-4F69-89B7-35A4B1BB9ED8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillMasteryAPI.Application.Tests", "tests\SkillMasteryAPI.Application.Tests\SkillMasteryAPI.Application.Tests.csproj", "{589B6C3E-D822-4F69-89B7-35A4B1BB9ED8}"
 	ProjectSection(ProjectDependencies) = postProject
 		{1B2D099E-1BC2-4A24-BF99-4AEEF3EF07B3} = {1B2D099E-1BC2-4A24-BF99-4AEEF3EF07B3}
 	EndProjectSection
