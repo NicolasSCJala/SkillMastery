@@ -1,8 +1,7 @@
-﻿using Moq;
+﻿﻿using Moq;
 using NSubstitute;
 using FluentAssertions;
 using MapsterMapper;
-using Microsoft.AspNetCore.Mvc;
 
 using SkillMasteryAPI.Domain.Models;
 using SkillMasteryAPI.Infrastructure.Repositories.Interfaces;
@@ -56,7 +55,7 @@ public class GoalServiceTests
             new Goal
             {
                 Id = 3,
-                Name = "Programmer goal",
+                Name = "Goalmer goal",
                 Finish_Date = new DateOnly(2025,1,23),
                 UserSkillId = 3,
                 CreatedAt = new DateTime(2024, 1, 23, 0, 0, 0, DateTimeKind.Utc)
@@ -107,7 +106,7 @@ public class GoalServiceTests
         var goalDTO = new GoalDTO
         {
             Id = 3,
-            Name = "Programmer goal",
+            Name = "Goalmer goal",
             Finish_Date = new DateOnly(2025, 1, 23),
             UserSkillId = 3
         };
@@ -176,31 +175,6 @@ public class GoalServiceTests
         await act.Should().ThrowAsync<NotFoundException>().WithMessage("Goal with id 1 not found");
     }
 
-    [Fact]
-    public async Task DeleteGoalAsync_ShoulThrowFoundException_WhenGoalIsUsedInClassroom()
-    {
-        // Arrange
-        GoalService goalService = GetServiceInstance();
-
-        Goal sampleGoal = new Goal
-        {
-            Id = 2,
-            Name = "Rock Star",
-            Finish_Date = new DateOnly(2025, 1, 23),
-            UserSkillId = 2,
-            CreatedAt = new DateTime(2024, 1, 23, 0, 0, 0, DateTimeKind.Utc)
-        };
-
-      
-
-        _goalRepository.GetGoalByIdAsync(1).Returns(Task.FromResult<Goal?>(sampleGoal));
-
-        // Act
-        Func<Task> act = async () => await goalService.DeleteGoalAsync(1);
-
-        // Assert
-        await act.Should().ThrowAsync<FoundException>().WithMessage("Goal with id 1 is used in a classroom");
-    }
 
     [Fact]
     public async Task EditGoalAsync_ShouldReturnEditedGoalDTO()

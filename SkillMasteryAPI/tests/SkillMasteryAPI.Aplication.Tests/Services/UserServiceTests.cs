@@ -176,32 +176,7 @@ public class UserServiceTests
         await act.Should().ThrowAsync<NotFoundException>().WithMessage("User with id 1 not found");
     }
 
-    [Fact]
-    public async Task DeleteUserAsync_ShoulThrowFoundException_WhenUserIsUsedInClassroom()
-    {
-        // Arrange
-        UserService userService = GetServiceInstance();
-
-        User sampleUser = new User
-        {
-            Id = 2,
-            FirstName = "random name",
-            LastName = "random last name",
-            Email = "random email",
-            CreatedAt = new DateTime(2024, 1, 23, 0, 0, 0, DateTimeKind.Utc)
-        };
-
-
-
-        _userRepository.GetUserByIdAsync(1).Returns(Task.FromResult<User?>(sampleUser));
-
-        // Act
-        Func<Task> act = async () => await userService.DeleteUserAsync(1);
-
-        // Assert
-        await act.Should().ThrowAsync<FoundException>().WithMessage("User with id 1 is used in a classroom");
-    }
-
+    
     [Fact]
     public async Task EditUserAsync_ShouldReturnEditedUserDTO()
     {

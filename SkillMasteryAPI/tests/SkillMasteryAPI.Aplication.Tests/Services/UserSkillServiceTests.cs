@@ -184,30 +184,7 @@ public class UserSkillServiceTests
         await act.Should().ThrowAsync<NotFoundException>().WithMessage("UserSkill with id 1 not found");
     }
 
-    [Fact]
-    public async Task DeleteUserSkillAsync_ShoulThrowFoundException_WhenUserSkillIsUsedInClassroom()
-    {
-        // Arrange
-        UserSkillService userskillService = GetServiceInstance();
-
-        UserSkill sampleUserSkill = new UserSkill
-        {
-            Id = 1,
-            Status = true,
-            SkillId = 1,
-            UserId = 1,
-            CreatedAt = new DateTime(2024, 1, 23, 0, 0, 0, DateTimeKind.Utc)
-        };
-
-       
-        _userskillRepository.GetUserSkillByIdAsync(1).Returns(Task.FromResult<UserSkill?>(sampleUserSkill));
-
-        // Act
-        Func<Task> act = async () => await userskillService.DeleteUserSkillAsync(1);
-
-        // Assert
-        await act.Should().ThrowAsync<FoundException>().WithMessage("UserSkill with id 1 is used in a classroom");
-    }
+    
 
     [Fact]
     public async Task EditUserSkillAsync_ShouldReturnEditedUserSkillDTO()

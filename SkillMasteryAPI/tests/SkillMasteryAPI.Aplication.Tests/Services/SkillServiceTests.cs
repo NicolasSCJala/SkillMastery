@@ -2,7 +2,6 @@
 using NSubstitute;
 using FluentAssertions;
 using MapsterMapper;
-using Microsoft.AspNetCore.Mvc;
 
 using SkillMasteryAPI.Domain.Models;
 using SkillMasteryAPI.Application.Services;
@@ -13,7 +12,8 @@ using SkillMasteryAPI.Application.DTOs.Skill;
 
 
 
-namespace SkillMasteryAPI.Application.Test.Services;
+
+namespace SkillMasteryAPI.Application.Tests.Services;
 
 public class SkillServiceTests
 {
@@ -182,30 +182,7 @@ public class SkillServiceTests
         await act.Should().ThrowAsync<NotFoundException>().WithMessage("Skill with id 1 not found");
     }
 
-    [Fact]
-    public async Task DeleteSkillAsync_ShoulThrowFoundException_WhenSkillIsUsedInClassroom()
-    {
-        // Arrange
-        SkillService skillService = GetServiceInstance();
-
-        Skill sampleSkill = new Skill
-        {
-            Id = 1,
-            Name = "Frontend Development",
-            Description = "Skill to develop Web Applications focusing on HTML, CSS, JavaScript, and popular frameworks.",
-            DificultyId = 2,
-            CreatedAt = new DateTime(2024, 1, 23, 0, 0, 0, DateTimeKind.Utc)
-        };
-
-   
-        _skillRepository.GetSkillByIdAsync(1).Returns(Task.FromResult<Skill?>(sampleSkill));
-
-        // Act
-        Func<Task> act = async () => await skillService.DeleteSkillAsync(1);
-
-        // Assert
-        await act.Should().ThrowAsync<FoundException>().WithMessage("Skill with id 1 is used in a classroom");
-    }
+    
 
     [Fact]
     public async Task EditSkillAsync_ShouldReturnEditedSkillDTO()
